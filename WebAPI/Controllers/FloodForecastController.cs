@@ -16,13 +16,6 @@ namespace WebAPI.Controllers
             "/flood-monitoring/id/stations/{0}/readings",
             "/flood-monitoring/id/stations/{0}/readings?today&_sorted&parameter=rainfall"};
 
-        private readonly ILogger<FloodForecastController> _logger;
-
-        public FloodForecastController(ILogger<FloodForecastController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet(Name = "GetFloodForecast")]
         public FloodForecast? Get(string stations)
         {
