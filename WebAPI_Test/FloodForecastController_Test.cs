@@ -20,7 +20,7 @@ namespace WebAPI_Test
         [TestCase("44200")]
         [TestCase("E7200")]
         [TestCase("200ABC")]
-        public void Test1(string stationId)
+        public void FloodForecast_Test(string stationId)
         {
             //Assign
             //String stationId = "290200TP";

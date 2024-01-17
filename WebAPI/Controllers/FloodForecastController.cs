@@ -33,6 +33,5 @@ namespace WebAPI.Controllers
                 return floodForecast;
             }
         }
-
     }
 }
